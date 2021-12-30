@@ -11,7 +11,18 @@
     {
       "Effect": "Allow",
       "Action": [
-        "ecr:GetAuthorizationToken"
+        "ecr:GetAuthorizationToken",
+        "ec2:*",
+        "rds:DeleteDBSubnetGroup",
+        "rds:CreateDBInstance",
+        "rds:CreateDBSubnetGroup",
+        "rds:DeleteDBInstance",
+        "rds:DescribeDBSubnetGroups",
+        "rds:DescribeDBInstances",
+        "rds:ListTagsForResource",
+        "rds:ModifyDBInstance",
+        "iam:CreateServiceLinkedRole",
+        "rds:AddTagsToResource"
       ],
       "Resource": "*"
     }
