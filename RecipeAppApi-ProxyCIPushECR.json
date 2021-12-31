@@ -6,7 +6,7 @@
       "Action": [
         "ecr:*"
       ],
-      "Resource": "arn:aws:ecr:us-east-1:*:repository/recipe-app-api-proxy"
+      "Resource": "arn:aws:ecr:us-east-1:*:repository/app-api-proxy"
     },
     {
       "Effect": "Allow",
@@ -22,7 +22,28 @@
         "rds:ListTagsForResource",
         "rds:ModifyDBInstance",
         "iam:CreateServiceLinkedRole",
-        "rds:AddTagsToResource"
+        "rds:AddTagsToResource",
+        "iam:CreateRole",
+        "iam:GetInstanceProfile",
+        "iam:DeletePolicy",
+        "iam:DetachRolePolicy",
+        "iam:GetRole",
+        "iam:AddRoleToInstanceProfile",
+        "iam:ListInstanceProfilesForRole",
+        "iam:ListAttachedRolePolicies",
+        "iam:DeleteRole",
+        "iam:TagRole",
+        "iam:PassRole",
+        "iam:GetPolicyVersion",
+        "iam:GetPolicy",
+        "iam:CreatePolicyVersion",
+        "iam:DeletePolicyVersion",
+        "iam:CreateInstanceProfile",
+        "iam:DeleteInstanceProfile",
+        "iam:ListPolicyVersions",
+        "iam:AttachRolePolicy",
+        "iam:CreatePolicy",
+        "iam:RemoveRoleFromInstanceProfile"
       ],
       "Resource": "*"
     }

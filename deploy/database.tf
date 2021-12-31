@@ -27,7 +27,7 @@ resource "aws_security_group" "rds" {
 
 resource "aws_db_instance" "main" {
   identifier              = "${local.prefix}-db"
-  name                    = "recipe"
+  name                    = "test"
   allocated_storage       = 20
   storage_type            = "gp2"
   engine                  = "postgres"

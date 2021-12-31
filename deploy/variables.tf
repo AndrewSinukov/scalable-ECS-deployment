@@ -18,3 +18,7 @@ variable "db_password" {
   description = "Password for the RDS postgres instance"
 }
 
+variable "bastion_key_name" {
+  default = "app-api-devops-bastion"
+}
+
