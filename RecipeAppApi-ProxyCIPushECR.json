@@ -43,7 +43,22 @@
         "iam:ListPolicyVersions",
         "iam:AttachRolePolicy",
         "iam:CreatePolicy",
-        "iam:RemoveRoleFromInstanceProfile"
+        "iam:RemoveRoleFromInstanceProfile",
+        "logs:CreateLogGroup",
+        "logs:DeleteLogGroup",
+        "logs:DescribeLogGroups",
+        "logs:ListTagsLogGroup",
+        "logs:TagLogGroup",
+        "ecs:DeleteCluster",
+        "ecs:CreateService",
+        "ecs:UpdateService",
+        "ecs:DeregisterTaskDefinition",
+        "ecs:DescribeClusters",
+        "ecs:RegisterTaskDefinition",
+        "ecs:DeleteService",
+        "ecs:DescribeTaskDefinition",
+        "ecs:DescribeServices",
+        "ecs:CreateCluster"
       ],
       "Resource": "*"
     }
