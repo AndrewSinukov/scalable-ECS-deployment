@@ -58,7 +58,8 @@
         "ecs:DeleteService",
         "ecs:DescribeTaskDefinition",
         "ecs:DescribeServices",
-        "ecs:CreateCluster"
+        "ecs:CreateCluster",
+        "elasticloadbalancing:*"
       ],
       "Resource": "*"
     }
